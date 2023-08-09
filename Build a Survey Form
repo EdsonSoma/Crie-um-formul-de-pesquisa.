@@ -1,0 +1,38 @@
+<body>
+<link rel="stylesheet" href="styles.css">
+
+  <h1 id="title">Começo</h1>
+    <p id="description">Blalallaalla</p>
+
+    <form id="survey-form">
+         <div id="input-fields">
+      <label id="name-label"><br>Nome:</label>
+        <input id="name" type= name="name" class="form" required
+placeholder="Inserir Nome"></input></label><br><br>
+
+       <label id="email-label"><br>E-mail: </label> 
+    <input id= "email"  type= "email" name = "name" class= "form" required placeholder="Inserir E-mail"><br><br>
+
+        <label id="number-label">Número:<input id="number" value="2" type="number" min="0" max="100" placeholder="Inserir Telefone"></input></label><br><br>
+</div>
+            <input type="checkbox" name="os1" value="windows" checked> esse bloco é para o windows <br>
+            <input type="checkbox" name="os2" value="linux"> esse bloco é para o linux<br>
+            <button name="subject" type="submit" value="value">
+            <select id="dropdown">
+              <option>
+                <input name="one" type="radio" value="A"></input>
+              </option>
+            </select>
+            <select id="dropdown">
+              <option>
+                <input name="one" type="radio" value="B"></input>
+              </option>
+            </select>
+            </button><br><br>
+
+          <input id="submit" type="submit" value="Enviar">
+
+          <textarea>
+            </textarea>
+      </form>
+</body>
